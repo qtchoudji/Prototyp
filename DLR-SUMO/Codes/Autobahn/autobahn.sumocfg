@@ -1,0 +1,22 @@
+<configuration>
+    <input>
+        <net-file value="autobahn.net.xml"/>
+		<additional-files value="autobahn.add.xml"/>
+        <route-files value="autobahn.rou.xml"/>
+        <gui-settings-file value="autobahn.settings.xml"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="220"/>
+    </time>
+	<processing>
+		<!--<collision.action value = "none"/>-->
+		<collision.action value = "remove"/>
+    </processing>
+	
+	<quit-on-end value = "true" />
+	<!--<start  value = "true" /> -->
+	
+	
+	
+</configuration>

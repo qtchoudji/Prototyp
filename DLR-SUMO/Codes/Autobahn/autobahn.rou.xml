@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+  <vType accel="1.0" decel="5.0" id="Car1"  color = "1,255,1" length="5.0" minGap="2.5" maxSpeed="10.0" tau ="0.2" sigma="0" />
+  <vType accel="1.0" decel="5.0" id="Car" color = "1,0,1" length="5.0" minGap="2.5" maxSpeed="10.0" tau ="0.2" sigma="0" />
+  <vType accel="1.0" decel="5.0" id="Car2" color = "0,0,1" length="5.0" minGap="2.5" maxSpeed="10.0" sigma="0" />
+  <vType id="Car3" length="5" color = "0,1,1" maxSpeed="10.0" carFollowModel="Krauss" minGap="2.5" accel="2.6" decel="4.5" sigma="0.5" tau = "0.5"/>
+  <vType id="Car4" length="5" color = "220,10,100" maxSpeed="10.0" carFollowModel="Krauss" minGap="2.5" accel="2.6" decel="4.5" sigma="0.5" tau = "0.5"/>
+   
+	
+<!--
+	<route id="route0" color="1,1,0" edges="Lane1 Lane2 Lane3"> </route>
+	<route id="route1" color="1,1,0" edges="Lane1 Lane2 Lane4 Lane5"> </route>
+	<route id="route2" color="1,1,0" edges="Lane6 Lane2 Lane4 Lane5"> </route>
+	<route id="route1" color="1,1,0" edges="Lane1 Lane2 Lane4 Lane5"> </route>
+  
+
+	<route id="route0" color="1,1,0" edges="lane1_1 lane2_1">
+		<stop lane="lane2_1_0" endPos="40" duration="20"/>
+	</route>  
+	
+	<route id="route0" color="1,1,0" edges="Lane1 Lane2 Lane3"> </route>
+	<route id="route1" color="1,1,0" edges="Lane1 Lane2 Lane4 Lane5"> </route>
+	
+	<vehicle depart="0" id="veh2" route="route0" type="Car" color="145,75,154" departLane = "0"  arrivalLane = "0" departPos = "0" departSpeed = "3" arrivalSpeed= "3" />
+	<vehicle depart="0" id="veh1" route="route0" type="Car" color="145,200,154" departLane = "2"  arrivalLane = "0" departPos = "0" departSpeed = "3" arrivalSpeed= "3" />-->
+
+	
+	
+	<!--
+	<vehicle depart="0" id="veh1" route="route0" type="Car3" color="45,205,25" departLane = "0"  arrivalLane = "0" departPos = "40" departSpeed = "3" arrivalSpeed= "3" />
+	<vehicle depart="0" id="veh2" route="route1" type="Car" color="145,75,154" departLane = "0"  arrivalLane = "0" departPos = "0" departSpeed = "3" arrivalSpeed= "3" />
+	--> 
+
+	 
+</routes>

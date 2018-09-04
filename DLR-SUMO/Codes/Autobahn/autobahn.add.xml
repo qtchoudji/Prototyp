@@ -1,0 +1,41 @@
+<additionals>
+    <!--<busStop id="busStop_lane3_1_1_0" lane="lane3_1_0" startPos="56.90" endPos="66.90" 
+	lines="100 101 102" friendlyPos="0"/> -->
+	
+    <rerouter id="rerouter_0" edges="-Lane5" probability="1.00" >
+        <interval begin="5.00" end="20.00">
+            <closingLaneReroute id="-Lane2_1" />  
+            <closingLaneReroute id="-Lane4_0"/>  
+        </interval>
+		 <interval begin="20.00" end="40.00">
+            <closingLaneReroute id="-Lane2_0" />  
+            <closingLaneReroute id="-Lane4_1"/>  
+        </interval>
+		<interval begin="40.00" end="60.00">
+            <closingLaneReroute id="-Lane2_2" />  
+            <closingLaneReroute id="-Lane4_0"/>  
+        </interval>
+		<interval begin="60.00" end="80.00">
+            <closingLaneReroute id="-Lane1_0" />  
+			<closingLaneReroute id="-Lane2_1" />
+			<closingLaneReroute id="-Lane4_0"/>			
+        </interval>
+    </rerouter>	
+	 <rerouter id="rerouter_1" edges="-Lane4" probability="1.00" >
+     
+    </rerouter>	
+	<rerouter id="rerouter_1" edges="-Lane4" probability="1.00" >
+     
+    </rerouter>	
+	
+	
+
+	<vehicles>
+	  <trip id="t" depart="0" from="-Lane5" to="-Lane1"/>
+	  <flow id="f" begin="0" end="100" number="23" from="-Lane5" to="-Lane1"/>
+	 
+	
+	</vehicles>
+	
+
+</additionals>
